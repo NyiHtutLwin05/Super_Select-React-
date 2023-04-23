@@ -1,0 +1,65 @@
+const HandData =[
+    {
+      'id':1,
+       'src':'/src/assets/image/HandRail/H1.jpg'
+    },
+    {
+        'id':2,
+         'src':'/src/assets/image/HandRail/H2.jpg'
+      },
+      {
+        'id':3,
+         'src':'/src/assets/image/HandRail/H3.jpg'
+      },
+      {
+        'id':4,
+         'src':'/src/assets/image/HandRail/H4.jpg'
+      },
+      {
+        'id':5,
+         'src':'/src/assets/image/HandRail/H5.jpg'
+      },
+      {
+        'id':6,
+         'src':'/src/assets/image/HandRail/H6.jpg'
+      },
+      {
+        'id':7,
+         'src':'/src/assets/image/HandRail/H7.jpg'
+      },
+      {
+        'id':8,
+         'src':'/src/assets/image/HandRail/H8.jpg'
+      },
+      {
+        'id':9,
+         'src':'/src/assets/image/HandRail/H9.jpg'
+      },
+      {
+        'id':10,
+         'src':'/src/assets/image/HandRail/H10.JPG'
+      },
+      {
+        'id':11,
+         'src':'/src/assets/image/HandRail/H11.jpg'
+      },
+      {
+        'id':12,
+         'src':'/src/assets/image/HandRail/H12.jpg'
+      },
+      {
+        'id':13,
+         'src':'/src/assets/image/HandRail/H13.jpg'
+      },
+      {
+        'id':14,
+         'src':'/src/assets/image/HandRail/H14.jpg'
+      },
+      {
+        'id':15,
+         'src':'/src/assets/image/HandRail/H15.jpg'
+      },
+
+
+]
+export default HandData;
