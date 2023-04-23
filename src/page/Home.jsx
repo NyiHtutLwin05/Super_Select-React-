@@ -57,7 +57,7 @@ const Homee = () => {
               <button className=" bg-primiray-text text-white text-center py-2 px-3 rounded-Lg md:py-3 md:px-4" data-aos="fade-up" data-aos-duration="2000">Contact Us</button>
             </div>
             <div className=" w-1/2 md:w-1/3 cursor-pointer" data-aos="fade-up" data-aos-duration="2000">
-               <img src="/assets/image/ss_let.jpg" alt="" className=" rounded-Lg"/>
+               <img src="/src/assets/image/ss_let.jpg" alt="" className=" rounded-Lg"/>
             </div>
 
           </div>
