@@ -19,7 +19,7 @@ const Homee = () => {
         isMobileInHome ? (<>
           <div className="flex flex-col md:flex-row items-center justify-center mt-8">
           <div className=" w-1/2 md:w-1/3 cursor-pointer">
-               <img src="assets/image/ss_let.jpg" alt="" className=" rounded-Lg" data-aos="fade-up" data-aos-duration="1000"/>
+               <img src="/assets/image/ss_let.jpg" alt="" className=" rounded-Lg" data-aos="fade-up" data-aos-duration="1000"/>
             </div>
             <div className="w-full md:w-1/2 px-4 mt-6">
               <span className=" text-2xl font-monument md:text-4xl text-primiray-text" data-aos="fade-right" data-aos-duration="2000">Choose</span>
@@ -57,7 +57,7 @@ const Homee = () => {
               <button className=" bg-primiray-text text-white text-center py-2 px-3 rounded-Lg md:py-3 md:px-4" data-aos="fade-up" data-aos-duration="2000">Contact Us</button>
             </div>
             <div className=" w-1/2 md:w-1/3 cursor-pointer" data-aos="fade-up" data-aos-duration="2000">
-               <img src="assets/image/ss_let.jpg" alt="" className=" rounded-Lg"/>
+               <img src="/assets/image/ss_let.jpg" alt="" className=" rounded-Lg"/>
             </div>
 
           </div>
