@@ -1,7 +1,7 @@
 const AluData = [
     {
         "id":1,
-        "src": "/src/assets/image/Aluminium/IMG_0462.JPG"
+        "src": "./src/assets/image/Aluminium/IMG_0462.JPG"
       },
       {
         "id":2,
