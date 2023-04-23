@@ -1,0 +1,7 @@
+{
+    "build": {
+      "env": {
+        "MAX_PAYLOAD_SIZE": "1000000000"
+      }
+    }
+  }
