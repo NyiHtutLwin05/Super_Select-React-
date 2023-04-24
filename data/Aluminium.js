@@ -1,9 +1,9 @@
-import Alu1 from '../assets/image/Aluminium/IMG_0462.jpg'
+
 
 const AluData = [
     {
         "id":1,
-        "src": Alu1
+        "src": "/src/assets/image/Aluminium/Image002.jpg"
       },
       {
         "id":2,
