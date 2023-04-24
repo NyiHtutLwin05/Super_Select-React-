@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 import React, { useState } from "react";
 import NavBarMobile from "./NavBar.mobile";
 import { Link } from 'react-router-dom';
-// import {navLogo} from '../assets/Full logo white.svg'
+
 const NavBar = () => {
   const isMobile = useMediaQuery('(max-width: 807px)');
 
@@ -37,7 +37,7 @@ const NavBar = () => {
           <Flex align="center" justify="space-around" mt={4}  className={`${isScrolled ?'fixed -top-1 w-full bg-Nav z-50':''}`}>
           <div data-aos="fade-right" data-aos-duration="2000">
             <img
-              src="/src/assets/Full logo white.svg"
+              src='/src/assets/Full logo white.svg'
               alt=""
               className=" w-48 lg:w-56"
               
