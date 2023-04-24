@@ -50,7 +50,7 @@ const NavBar = () => {
               <NavLink component={Link} to='/' label="Home" />
               <NavLink component={Link} to="about" label="About" />
               <NavLink component={Link} to="gallery" label="Gallery" />
-              <NavLink component={Link} to="contact" label="Contact Us" className="min-w-[100px]" /> 
+              <NavLink component={Link} to="contact" label="Contact Us" className=" whitespace-nowrap" /> 
          
             </Flex>
           </div>
