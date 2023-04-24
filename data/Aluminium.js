@@ -3,7 +3,7 @@ import Alu1 from '../src/assets/image/Aluminium/IMG_0462.jpg'
 const AluData = [
     {
         "id":1,
-        "src": Alu1
+        "src": {Alu1}
       },
       {
         "id":2,
