@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: "Monument Extended";
-  src: url(./src/assets/fonts/MonumentExtended-Regular.otf);
+  src: url(./assets/fonts/MonumentExtended-Regular.otf);
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url(./src/assets/fonts/SFPRODISPLAYMEDIUM.OTF);
+  src: url(./assets/fonts/SFPRODISPLAYMEDIUM.OTF);
 }
 @font-face {
   font-family: "SF Pro Display italic";
-  src: url(./src/assets/fonts/FontsFree-Net-SFProDisplay-SemiboldItalic.ttf);
+  src: url(./assets/fonts/FontsFree-Net-SFProDisplay-SemiboldItalic.ttf);
 }
