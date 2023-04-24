@@ -1,4 +1,4 @@
-import Alu1 from '../src/assets/image/Aluminium/IMG_0462.jpg'
+import Alu1 from '../assets/image/Aluminium/IMG_0462.jpg'
 
 const AluData = [
     {
