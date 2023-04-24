@@ -13,7 +13,7 @@ import GlassPData from "../../../data/GlassPartition";
 import NavBarMobile from "../../navbar/NavBar.mobile";
 import Brdata from "../../../data/BathroomDoor";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-
+import Logo2 from "../../assets/Full logo white.svg";
 function GalleryTestDesktop() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
@@ -46,7 +46,7 @@ function GalleryTestDesktop() {
      
    
         <img
-          src="/src/assets/Full logo white.svg"
+          src={Logo2}
           alt=""
           className=" w-32 md:w-44"
         />

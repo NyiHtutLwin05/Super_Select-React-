@@ -2,7 +2,7 @@ import { useMediaQuery } from '@mantine/hooks';
 import React from 'react'
 import AboutPhone from './aboutPhone';
 import Footer from '../../navbar/Footer';
-
+import aboutImg from '../../assets/image/About/About.png'
 
 const AboutPage = () => {
   const isMobile = useMediaQuery('(max-width: 807px)');
@@ -11,7 +11,7 @@ const AboutPage = () => {
    <div>
     {
       isMobile ? <AboutPhone/>: (    <div className=' flex flex-col justify-center items-center mt-10'>
-      <img src="/src/assets/image/About/About.png" alt="" className=' w-[64%]' />
+      <img src={aboutImg} alt="" className=' w-[64%]' />
       <div className=' flex justify-evenly mt-5'>
         <div className=' w-[25%]'>
           <h1 className=' text-2xl font-monument font-5xl w-20  text-secondary-text' data-aos="fade-up" data-aos-duration="2000">About Company</h1>

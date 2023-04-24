@@ -1,83 +1,104 @@
+import G1 from '../src/assets/image/GlassShowCase/G1.jpg'
+import G2 from '../src/assets/image/GlassShowCase/G2.jpg'
+import G3 from '../src/assets/image/GlassShowCase/G3.jpg'
+import G4 from '../src/assets/image/GlassShowCase/G4.jpg'
+import G5 from '../src/assets/image/GlassShowCase/G5.jpg'
+import G6 from '../src/assets/image/GlassShowCase/G6.jpg'
+import G7 from '../src/assets/image/GlassShowCase/G7.jpg'
+import G8 from '../src/assets/image/GlassShowCase/G8.jpg'
+import G9 from '../src/assets/image/GlassShowCase/G9.jpg'
+import G10 from '../src/assets/image/GlassShowCase/G10.jpg'
+import G11 from '../src/assets/image/GlassShowCase/G11.jpg'
+import G12 from '../src/assets/image/GlassShowCase/G12.jpg'
+import G13 from '../src/assets/image/GlassShowCase/G13.jpg'
+import G14 from '../src/assets/image/GlassShowCase/G14.jpg'
+import G15 from '../src/assets/image/GlassShowCase/G15.jpg'
+import G16 from '../src/assets/image/GlassShowCase/G16.jpg'
+import G17 from '../src/assets/image/GlassShowCase/G17.jpg'
+import G18 from '../src/assets/image/GlassShowCase/G18.jpg'
+import G19 from '../src/assets/image/GlassShowCase/G19.jpg'
+import G20 from '../src/assets/image/GlassShowCase/G20.jpg'
+
 const GlcData =[
     {
         'id':1,
-        'src':'/src/assets/image/GlassShowCase/G1.jpg'
+        src:G1,
     },
     {
         'id':2,
-        'src':'/src/assets/image/GlassShowCase/G2.jpg'
+        src:G2,
     },
     {
         'id':3,
-        'src':'/src/assets/image/GlassShowCase/G3.jpg'
+        src:G3,
     },
     {
         'id':4,
-        'src':'/src/assets/image/GlassShowCase/G4.jpg'
+        src:G4,
     },
     {
         'id':5,
-        'src':'/src/assets/image/GlassShowCase/G5.jpg'
+        src:G5,
     },
     {
         'id':6,
-        'src':'/src/assets/image/GlassShowCase/G6.jpg'
+        src:G6,
     },
     {
         'id':7,
-        'src':'/src/assets/image/GlassShowCase/G7.jpg'
+        src:G7,
     },
     {
         'id':8,
-        'src':'/src/assets/image/GlassShowCase/G8.jpg'
+        src:G8,
     },
     {
         'id':9,
-        'src':'/src/assets/image/GlassShowCase/G9.JPG'
+        src:G9,
     },
     {
         'id':10,
-        'src':'/src/assets/image/GlassShowCase/G10.jpg'
+        src:G10,
     },
     {
         'id':11,
-        'src':'/src/assets/image/GlassShowCase/G11.jpg'
+        src:G11,
     },
     {
         'id':12,
-        'src':'/src/assets/image/GlassShowCase/G12.jpg'
+        src:G12,
     },
     {
         'id':13,
-        'src':'/src/assets/image/GlassShowCase/G13.jpg'
+        src:G13,
     },
     {
         'id':14,
-        'src':'/src/assets/image/GlassShowCase/G14.jpg'
+        src:G14,
     },
     {
         'id':15,
-        'src':'/src/assets/image/GlassShowCase/G15.jpg'
+        src:G15,
     },
     {
         'id':16,
-        'src':'/src/assets/image/GlassShowCase/G16.JPG'
+        src:G16,
     },
     {
         'id':17,
-        'src':'/src/assets/image/GlassShowCase/G17.JPG'
+        src:G17,
     },
     {
         'id':18,
-        'src':'/src/assets/image/GlassShowCase/G18.JPG'
+        src:G18,
     },
     {
         'id':19,
-        'src':'/src/assets/image/GlassShowCase/G19.JPG'
+        src:G19,
     },
     {
         'id':20,
-        'src':'/src/assets/image/GlassShowCase/G20.JPG'
+        src:G20,
     },
 
 ]

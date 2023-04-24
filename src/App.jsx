@@ -15,13 +15,14 @@ import Footer from "./navbar/Footer";
 import GalleryTestDesktop from "./page/Gallery/GalleryTest.desktop";
 import GalleryTestMobile from "./page/Gallery/GalleryText.mobile";
 import ScrollToTop from "./ScrollToTop";
+import Aos from "aos";
 
 function App() {
   const location=useLocation();
   const [showNavBar,setShowNavBar]=useState(true);
   useEffect(() => {
     AOS.init();
-  }, []);
+  }, [AOS]);
   useEffect(()=>{
     if(location.pathname==='/gallery'){
       setShowNavBar(false);

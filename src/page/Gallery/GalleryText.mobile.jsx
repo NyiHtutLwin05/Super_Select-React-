@@ -10,7 +10,7 @@ import HandData from "../../../data/HandRail";
 import GlassPData from "../../../data/GlassPartition";
 import Brdata from "../../../data/BathroomDoor";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import ScrollToTop from "../../ScrollToTop";
+import Logo2 from "../../assets/Full logo white.svg";
 
 function GalleryTestMobile() {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +56,7 @@ function GalleryTestMobile() {
         </Button>
      
         <img
-          src="/src/assets/Full logo white.svg"
+          src={Logo2}
           alt=""
           className=" w-32 md:w-44"
         />

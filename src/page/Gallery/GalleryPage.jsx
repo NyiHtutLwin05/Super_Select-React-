@@ -8,37 +8,34 @@ import GalleryTest from './GalleryTest';
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { useNavigate } from 'react-router';
-
-
-
+import galleyImg1 from '../../assets/image/Whole_Building/Pro_One.jpg'
+import galleyImg2 from '../../assets/image/Whole_Building/DSCN2091.jpg'
+import galleyImg3 from '../../assets/image/Whole_Building/naing_group.jpg'
+import galleyImg4 from '../../assets/image/Whole_Building/IMG_0405.jpg'
+import galleyImg5 from '../../assets/image/Whole_Building/9_mile.jpg'
  export const data = [
   {
-    image:
-      '/src/assets/image/Whole_Building/Pro_One.jpg',
+    image:galleyImg1,
     title: 'Aluminium Partition',
     category: 'Best',
   },
   {
-    image:
-      '/src/assets/image/Whole_Building/DSCN2091.JPG',
+    image:galleyImg2,
     title: 'Glass Show Case',
     category: 'Our Project',
   },
   {
-    image:
-      '/src/assets/image/Whole_Building/naing_group.JPG',
+    image:galleyImg3,
     title: 'Handrail',
     category: 'nature',
   },
   {
-    image:
-      '/src/assets/image/Whole_Building/IMG_0405.JPG',
+    image:galleyImg4,
     title: 'Glass Partition',
     category: 'nature',
   },
   {
-    image:
-      '/src/assets/image/Whole_Building/9_mile.jpg',
+    image:galleyImg5,
     title: 'Bathroom Door',
     category: 'tourism',
   }

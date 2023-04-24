@@ -17,15 +17,15 @@ import img15 from "../src/assets/image/Aluminium/IMG_0462.jpg";
 const AluData = [
   {
     'id': 1,
-    'src': img1,
+    src: img1,
   },
   {
     'id': 2,
-    'src': img2,
+    src: img2,
   },
   {
     'id': 3,
-    'src': img3,
+    src: img3,
   },
   {
     id: 4,
