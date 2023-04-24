@@ -2,7 +2,7 @@ import { Text } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import React from "react";
 import AboutPage from "./About/About";
-
+import homeImg from '../assets/image/ss_let.jpg'
 import { useNavigate } from "react-router";
 import Demo from "./Gallery/GalleryPage";
 
@@ -56,7 +56,7 @@ const Homee = () => {
               <button className=" bg-primiray-text text-white text-center py-2 px-3 rounded-Lg md:py-3 md:px-4" data-aos="fade-up" data-aos-duration="2000">Contact Us</button>
             </div>
             <div className=" w-1/2 md:w-1/3 cursor-pointer" data-aos="fade-up" data-aos-duration="2000">
-               <img src="src/assets/image/ss_let.jpg" alt="" className=" rounded-Lg"/>
+               <img src={homeImg} alt="" className=" rounded-Lg"/>
             </div>
 
           </div>
