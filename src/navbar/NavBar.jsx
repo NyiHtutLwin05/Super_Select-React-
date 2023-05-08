@@ -1,4 +1,4 @@
-import { Center, Flex, NavLink } from "@mantine/core";
+import { Center, Flex, Image, NavLink } from "@mantine/core";
 import { useMediaQuery } from '@mantine/hooks';
 import { FaViber } from "react-icons/fa";
 import { AiFillWechat } from "react-icons/ai";
@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 import React, { useState } from "react";
 import NavBarMobile from "./NavBar.mobile";
 import { Link } from 'react-router-dom';
-import Logo from "../assets/Full logo white.svg";
+
 const NavBar = () => {
   const isMobile = useMediaQuery('(max-width: 807px)');
 
@@ -35,14 +35,9 @@ const NavBar = () => {
           <>
           
           <Flex align="center" justify="space-around" mt={4}  className={`${isScrolled ?'fixed -top-1 w-full bg-Nav z-50':''}`}>
-          <div data-aos="fade-right" data-aos-duration="2000">
-            <img
-              src={Logo}
-              alt=""
-              className=" w-48 lg:w-56"
-              
-              
-            />
+          <div data-aos="fade-right" data-aos-duration="2000"   className=" w-48 lg:w-56">
+       
+            <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg'/>
           </div>
           <div >
             <Flex justify="" align="center" gap="xl" className=" font-bold font-sfPro text-4xl">

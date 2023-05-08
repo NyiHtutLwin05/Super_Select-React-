@@ -1,4 +1,4 @@
-import { Button, Drawer, Group, Tabs } from "@mantine/core";
+import { Button, Drawer, Group, Image, Tabs } from "@mantine/core";
 import AluData from "../../../data/Aluminium";
 import { useEffect, useState } from "react";
 import {TbCategory} from 'react-icons/tb'
@@ -10,7 +10,7 @@ import HandData from "../../../data/HandRail";
 import GlassPData from "../../../data/GlassPartition";
 import Brdata from "../../../data/BathroomDoor";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import Logo2 from "../../assets/Full logo white.svg";
+// import Logo2 from "../../assets/Full logo white.svg";
 
 function GalleryTestMobile() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +44,7 @@ function GalleryTestMobile() {
 
   return (
     <>
-      <div   className={`flex justify-evenly text-center  ${
+      <div   className={`flex justify-evenly text-center items-center  ${
             isScrolled ? "fixed top-0 w-full z-50  bg-Nav" : ""
           } py-3`}>
       <Button
@@ -54,12 +54,11 @@ function GalleryTestMobile() {
         >
           <AiOutlineHome/>
         </Button>
-     
-        <img
-          src={Logo2}
-          alt=""
-          className=" w-32 md:w-44"
-        />
+        <div className=" w-32 md:w-44">
+       
+        <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg' alt="" />
+        </div>
+      
        
         <Group position="center">
         <Button onClick={open} className=" bg-primiray-text  "><TbCategory/></Button>

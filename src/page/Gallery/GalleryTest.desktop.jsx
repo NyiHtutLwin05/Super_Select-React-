@@ -1,4 +1,4 @@
-import { Button, Drawer, Group, SimpleGrid, Tabs } from "@mantine/core";
+import { Button, Drawer, Group, Image, SimpleGrid, Tabs } from "@mantine/core";
 import Footer from "../../navbar/Footer";
 
 
@@ -13,7 +13,6 @@ import GlassPData from "../../../data/GlassPartition";
 import NavBarMobile from "../../navbar/NavBar.mobile";
 import Brdata from "../../../data/BathroomDoor";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import Logo2 from "../../assets/Full logo white.svg";
 function GalleryTestDesktop() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
@@ -44,12 +43,10 @@ function GalleryTestDesktop() {
     <>
       <div className="flex justify-evenly text-center mt-5">
      
-   
-        <img
-          src={Logo2}
-          alt=""
-          className=" w-32 md:w-44"
-        />
+        <div className=" w-32 md:w-44">
+        <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg' alt="" />
+        </div>
+      
           <Button
       
       className=" bg-primiray-text text-white text-xl   "
@@ -143,7 +140,7 @@ function GalleryTestDesktop() {
                   onClick={() => toggleModal(g.src)}
                   className="w-64 h-52 md:w-72 md:h-64"
                   data-aos="fade-up" data-aos-duration="2000"
-                  loading="lazy"
+                  
                 />
               </div>
             ))}
@@ -167,7 +164,7 @@ function GalleryTestDesktop() {
                   onClick={() => toggleModal(h.src)}
                   className="w-64 h-52 md:w-72 md:h-64"
                   data-aos="fade-up" data-aos-duration="2000"
-                  loading="lazy"
+                 
                 />
               </div>
             ))}
@@ -191,7 +188,7 @@ function GalleryTestDesktop() {
                     onClick={() => toggleModal(p.src)}
                     className="w-64 h-52 md:w-72 md:h-64"
                     data-aos="fade-up" data-aos-duration="2000"
-                    loading="lazy"
+                    
                   />
                 </div>
                 ))
@@ -216,7 +213,7 @@ function GalleryTestDesktop() {
                     onClick={() => toggleModal(b.src)}
                     className="w-64 h-52 md:w-72 md:h-64"
                     data-aos="fade-up" data-aos-duration="2000"
-                    loading="lazy"
+                   
                   />
                 </div>
                 ))

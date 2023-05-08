@@ -1,6 +1,6 @@
-import { Divider } from '@mantine/core';
+import { Divider, Image } from '@mantine/core';
 import React from 'react'
-import Logo from "../assets/Full logo white.svg";
+
 const Footer = () => {
     const CurrentYear = new Date().getFullYear();
   return (
@@ -9,8 +9,8 @@ const Footer = () => {
       <Divider size="sm"  className=' mt-3 mb-4 w-52 md:w-2/4'/>
       </div> 
       <div className=' flex items-center justify-around flex-col md:flex-row'>
-        <div>
-          <img src={Logo} alt=""  className=" w-36 lg:w-56 mb-5 md:mb-0"/>
+        <div className=" w-36 lg:w-56 mb-5 md:mb-0">
+          <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg'/>
         </div>
         <div>
         <p className=' text-secondary-text font-light]'>&copy; {CurrentYear} All rights reserved. Created by Nyi Htut.</p>

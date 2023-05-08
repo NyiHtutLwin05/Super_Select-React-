@@ -1,11 +1,11 @@
-import { Burger, Button, Flex, Group,Drawer,NavLink, Space } from "@mantine/core";
+import { Burger, Button, Flex, Group,Drawer,NavLink, Space, Image } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { FaViber } from "react-icons/fa";
 import { AiFillWechat } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import Logo from "../assets/Full logo white.svg";
+
 const NavBarMobile = () => {
     const [opened,{toggle}]=useDisclosure(false);
     const [opening,{open,close}] =useDisclosure(false);
@@ -15,19 +15,24 @@ const NavBarMobile = () => {
   return (
     <>
      <Flex justify="space-around" mt={7}>
-      <div data-aos="fade-right" data-aos-duration="2000">
-        <img src={Logo} alt="" className=" w-48" />
+      <div data-aos="fade-right" data-aos-duration="2000"  className=" w-48">
+    
+        <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg' />
       </div>
       <div>
         <Group position="center">
-        {/* <Button onClick={open}> */}
+        
         <Burger opened={open} onClick={open}/>
-        {/* </Button> */}
+      
         </Group>
       </div>
       </Flex>
       <Drawer opened={opening} onClose={close} >
-      <img src={Logo} alt="" className=" w-48" />
+        <div className=" w-48">
+       
+        <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg' />
+        </div>
+      
        <Space h="lg"/>
         <div className=" flex flex-col justify-center">
       <NavLink component={Link} to='/' label="Home" childrenOffset="sm" className=" text-4xl font-bold" onClick={close}/>

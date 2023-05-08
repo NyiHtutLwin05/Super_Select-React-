@@ -1,8 +1,8 @@
-import { Text } from "@mantine/core";
+import { Image, Text } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import React from "react";
 import AboutPage from "./About/About";
-import homeImg from '../assets/image/ss_let.jpg'
+// import homeImg from 'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/ss_let.jpg'
 import { useNavigate } from "react-router";
 import Demo from "./Gallery/GalleryPage";
 
@@ -18,7 +18,8 @@ const Homee = () => {
         isMobileInHome ? (<>
           <div className="flex flex-col md:flex-row items-center justify-center mt-8">
           <div className=" w-1/2 md:w-1/3 cursor-pointer">
-               <img src={homeImg} alt="" className=" rounded-Lg" data-aos="fade-up" data-aos-duration="1000"/>
+               {/* <img src={homeImg} alt="" className=" rounded-Lg" data-aos="fade-up" data-aos-duration="1000"/> */}
+               <Image src="https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/ss_let.jpg" alt=""  className=" rounded-Lg" data-aos="fade-up" data-aos-duration="1000" radius="lg"/>
             </div>
             <div className="w-full md:w-1/2 px-4 mt-6">
               <span className=" text-2xl font-monument md:text-4xl text-primiray-text" data-aos="fade-right" data-aos-duration="2000">Choose</span>
@@ -56,7 +57,8 @@ const Homee = () => {
               <button className=" bg-primiray-text text-white text-center py-2 px-3 rounded-Lg md:py-3 md:px-4" data-aos="fade-up" data-aos-duration="2000">Contact Us</button>
             </div>
             <div className=" w-1/2 md:w-1/3 cursor-pointer" data-aos="fade-up" data-aos-duration="2000">
-               <img src={homeImg} alt="" className=" rounded-Lg"/>
+               {/* <img src={homeImg} alt="" className=" rounded-Lg"/> */}
+               <Image src="https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/ss_let.jpg" alt="" radius="lg" />
             </div>
 
           </div>

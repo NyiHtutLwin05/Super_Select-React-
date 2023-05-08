@@ -1,105 +1,102 @@
-import G1 from '../src/assets/image/GlassShowCase/G1.jpg'
-import G2 from '../src/assets/image/GlassShowCase/G2.jpg'
-import G3 from '../src/assets/image/GlassShowCase/G3.jpg'
-import G4 from '../src/assets/image/GlassShowCase/G4.jpg'
-import G5 from '../src/assets/image/GlassShowCase/G5.jpg'
-import G6 from '../src/assets/image/GlassShowCase/G6.jpg'
-import G7 from '../src/assets/image/GlassShowCase/G7.jpg'
-import G8 from '../src/assets/image/GlassShowCase/G8.jpg'
-import G9 from '../src/assets/image/GlassShowCase/G9.jpg'
-import G10 from '../src/assets/image/GlassShowCase/G10.jpg'
-import G11 from '../src/assets/image/GlassShowCase/G11.jpg'
-import G12 from '../src/assets/image/GlassShowCase/G12.jpg'
-import G13 from '../src/assets/image/GlassShowCase/G13.jpg'
-import G14 from '../src/assets/image/GlassShowCase/G14.jpg'
-import G15 from '../src/assets/image/GlassShowCase/G15.jpg'
-import G16 from '../src/assets/image/GlassShowCase/G16.jpg'
-import G17 from '../src/assets/image/GlassShowCase/G17.jpg'
-import G18 from '../src/assets/image/GlassShowCase/G18.jpg'
-import G19 from '../src/assets/image/GlassShowCase/G19.jpg'
-import G20 from '../src/assets/image/GlassShowCase/G20.jpg'
 
 const GlcData =[
     {
         'id':1,
-        src:G1,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img020.webp',
     },
     {
         'id':2,
-        src:G2,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img001.webp',
     },
     {
         'id':3,
-        src:G3,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img002.webp',
     },
     {
         'id':4,
-        src:G4,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img003.webp',
     },
     {
         'id':5,
-        src:G5,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img004.webp',
     },
     {
         'id':6,
-        src:G6,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img021.webp',
     },
     {
         'id':7,
-        src:G7,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img006.webp',
     },
     {
         'id':8,
-        src:G8,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img007.webp',
     },
     {
         'id':9,
-        src:G9,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img008.webp',
     },
     {
         'id':10,
-        src:G10,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img009.webp',
     },
     {
         'id':11,
-        src:G11,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img010.webp',
     },
     {
         'id':12,
-        src:G12,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img011.webp',
     },
     {
         'id':13,
-        src:G13,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img012.webp',
     },
     {
         'id':14,
-        src:G14,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img013.webp',
     },
     {
         'id':15,
-        src:G15,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img014.webp',
     },
     {
         'id':16,
-        src:G16,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img015.webp',
     },
     {
         'id':17,
-        src:G17,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img016.webp',
     },
     {
         'id':18,
-        src:G18,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img017.webp',
     },
     {
         'id':19,
-        src:G19,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img018.webp',
     },
     {
         'id':20,
-        src:G20,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img019.webp',
     },
+    {
+        'id':21,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img022.webp',
+    },
+    {
+        'id':22,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img023.webp',
+    },
+    {
+        'id':23,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img024.webp',
+    },
+    {
+        'id':24,
+        src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Glass_Show_Case/img025.webp',
+    },
+
 
 ]
 export default GlcData;
