@@ -49,10 +49,11 @@ function GalleryTestDesktop() {
       
           <Button
       
-      className=" bg-primiray-text text-white text-xl   "
+      className=" bg-primiray-text text-white text-sm font-serif "
       onClick={handleGoHome}
     >
-      <AiOutlineHome/>
+      {/* <AiOutlineHome/> */}
+       Home
     </Button>
         
       </div>
