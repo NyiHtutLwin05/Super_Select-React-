@@ -14,7 +14,7 @@ const NavBarMobile = () => {
     
   return (
     <>
-     <Flex justify="space-around" mt={7}>
+     <Flex justify="space-around" mt={7} align='center'>
       <div data-aos="fade-right" data-aos-duration="2000"  className=" w-48">
     
         <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg' />
@@ -22,7 +22,7 @@ const NavBarMobile = () => {
       <div>
         <Group position="center">
         
-        <Burger opened={open} onClick={open}/>
+        <Burger opened={open} onClick={open} size={30}/>
       
         </Group>
       </div>

@@ -71,7 +71,7 @@ function GalleryTestDesktop() {
             isScrolled ? "fixed top-0 w-full z-50 md:bg-gray-300" : ""
           } py-3`}
         >
-          <Tabs.Tab value="first">
+          <Tabs.Tab value="first"  color="lightBlue">
             <h1 className=" font-monument text-secondary-text text-xs md:text-sm select-none">
               {" "}
               Aluminium
@@ -86,14 +86,14 @@ function GalleryTestDesktop() {
           </Tabs.Tab>
           <Tabs.Tab
             value="Third"
-            color="orange"
+            color="lightBlue"
             className="text-xs md:text-sm font-monument text-secondary-text"
           >
             HandRail
           </Tabs.Tab>
           <Tabs.Tab
             value="fouth"
-            color="red"
+            color="lightBlue"
             className="text-xs md:text-sm font-monument text-secondary-text"
           >
             Glass Partition
@@ -101,7 +101,7 @@ function GalleryTestDesktop() {
           
           <Tabs.Tab
             value="fifth"
-            color="green"
+            color="lightBlue"
             className="text-xs md:text-sm font-monument text-secondary-text"
           >
             Bathroom Door
