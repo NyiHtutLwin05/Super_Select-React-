@@ -3,41 +3,35 @@ import { useMediaQuery } from '@mantine/hooks';
 import { createStyles, Paper, Text, Title, Button, useMantineTheme, rem } from '@mantine/core';
 import {MdArrowBackIosNew} from 'react-icons/md'
 import {GrNext} from 'react-icons/gr';
-import Footer from '../../navbar/Footer';
-import GalleryTest from './GalleryTest';
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { useNavigate } from 'react-router';
-import galleyImg1 from '../../assets/image/Whole_Building/Pro_One.jpg'
-import galleyImg2 from '../../assets/image/Whole_Building/DSCN2091.jpg'
-import galleyImg3 from '../../assets/image/Whole_Building/naing_group.jpg'
-import galleyImg4 from '../../assets/image/Whole_Building/IMG_0405.jpg'
-import galleyImg5 from '../../assets/image/Whole_Building/9_mile.jpg'
+
  export const data = [
   {
-    image:galleyImg1,
+    image:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Whole_Building/WH2.webp',
     title: 'Aluminium Partition',
     category: 'Best',
   },
   {
-    image:galleyImg2,
-    title: 'Glass Show Case',
+    image:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Whole_Building/WH3.webp',
+    title: 'Glass Partition',
     category: 'Our Project',
   },
   {
-    image:galleyImg3,
+    image:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Whole_Building/WH5.webp',
     title: 'Handrail',
     category: 'nature',
   },
   {
-    image:galleyImg4,
-    title: 'Glass Partition',
+    image:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Whole_Building/WH6.webp',
+    title: 'Glass Show Case',
     category: 'nature',
   },
   {
-    image:galleyImg5,
+    image:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Whole_Building/WH9.webp',
     title: 'Bathroom Door',
-    category: 'tourism',
+    category: 'Best',
   }
 ];
 const useStyles = createStyles((theme) => ({
@@ -118,7 +112,7 @@ function Demo() {
       <Card {...item} />
     </Carousel.Slide>
   ));
-  const autoplay = useRef(Autoplay({ delay: 2000 }));
+  const autoplay = useRef(Autoplay({ delay: 3000 }));
  
   return (
     <>
