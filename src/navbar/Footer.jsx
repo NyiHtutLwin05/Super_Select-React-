@@ -9,7 +9,7 @@ const Footer = () => {
       <Divider size="sm"  className=' mt-3 mb-4 w-full md:w-full'/>
       </div> 
       <div className=' flex items-center justify-around flex-col md:flex-row'>
-        <div className=" w-36 lg:w-56 mb-5 md:mb-0">
+        <div className=" w-36 lg:w-56 mb-2 md:mb-0">
           <Image src='https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Full%20logo%20white.svg'/>
         </div>
         <div>
