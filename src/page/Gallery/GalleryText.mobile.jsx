@@ -10,6 +10,7 @@ import HandData from "../../../data/HandRail";
 import GlassPData from "../../../data/GlassPartition";
 import Brdata from "../../../data/BathroomDoor";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
+import Footer from "../../navbar/Footer";
 // import Logo2 from "../../assets/Full logo white.svg";
 
 function GalleryTestMobile() {
@@ -80,7 +81,7 @@ function GalleryTestMobile() {
           className=""
          
         >
-          <Tabs.Tab value="first"  onClick={close}>
+          <Tabs.Tab value="first"  onClick={close}  color="lightBlue">
             <h1 className=" font-monument text-secondary-text text-xs md:text-sm select-none">
               {" "}
               Aluminium
@@ -97,7 +98,7 @@ function GalleryTestMobile() {
           <Tabs.Tab
           onClick={close}
             value="Third"
-            color="orange"
+            color="lightBlue"
             className="text-xs md:text-sm font-monument text-secondary-text"
           >
             HandRail
@@ -105,7 +106,7 @@ function GalleryTestMobile() {
           <Tabs.Tab
           onClick={close}
             value="fouth"
-            color="red"
+            color="lightBlue"
             className="text-xs md:text-sm font-monument text-secondary-text"
           >
             Glass Partition
@@ -114,7 +115,7 @@ function GalleryTestMobile() {
           <Tabs.Tab
           onClick={close}
             value="fifth"
-            color="green"
+            color="lightBlue"
             className="text-xs md:text-sm font-monument text-secondary-text"
           >
             Bathroom Door
@@ -249,7 +250,7 @@ function GalleryTestMobile() {
         </Tabs.Panel>
       </Tabs>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

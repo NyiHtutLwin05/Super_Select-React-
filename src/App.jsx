@@ -31,8 +31,6 @@ function App() {
      }
   },[location])
  
- 
-
   return (
     <>
       <Helmet>
@@ -54,8 +52,8 @@ function App() {
         <Route path="gallery" element={<GalleryTest />}></Route>
         <Route path="contact" element={<ContactPage />}></Route>
       </Routes>
-      
-      <Footer />
+     
+      {/* <Footer /> */}
     </>
   );
 }

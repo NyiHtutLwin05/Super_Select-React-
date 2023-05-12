@@ -34,11 +34,11 @@ const NavBarMobile = () => {
         </div>
       
        <Space h="lg"/>
-        <div className=" flex flex-col justify-center">
-      <NavLink component={Link} to='/' label="Home" childrenOffset="sm" className=" text-4xl font-bold" onClick={close}/>
-            <NavLink component={Link} to='about' label="About"  childrenOffset="sm" className=" text-4xl font-bold"  onClick={close}/>
-            <NavLink component={Link} to='gallery' label="Gallery" childrenOffset="sm" className=" text-4xl font-bold" onClick={close} />
-            <NavLink component={Link} to='contact' label="Contact Us" className="min-w-[100px] text-4xl font-bold"  childrenOffset="sm"  onClick={close} />
+        <div className=" flex flex-col justify-center py-10">
+      <NavLink component={Link} to='/' label="Home" childrenOffset="sm" className=" text-4xl font-bold text-center" onClick={close}/>
+            <NavLink component={Link} to='about' label="About"  childrenOffset="sm" className=" text-4xl font-bold text-center"  onClick={close}/>
+            <NavLink component={Link} to='gallery' label="Gallery" childrenOffset="sm" className=" text-4xl font-bold text-center" onClick={close} />
+            <NavLink component={Link} to='contact' label="Contact Us" className="min-w-[100px] text-4xl font-bold text-center"  childrenOffset="sm"  onClick={close} />
             </div>
             <Flex gap="lg" className=" bottom-0 mt-5" justify="center">
             <FaViber className=" cursor-pointer text-3xl text-indigo-600 hover:text-black transition-all ease-linear duration-150" />

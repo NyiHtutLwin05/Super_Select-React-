@@ -1,6 +1,7 @@
 import { useMediaQuery } from '@mantine/hooks';
 import React from 'react'
 import AboutPhone from './aboutPhone';
+import Footer from '../../navbar/Footer';
 
 const AboutPage = () => {
   const isMobile = useMediaQuery('(max-width: 807px)');
@@ -25,7 +26,7 @@ const AboutPage = () => {
     }
 
     </div>
- 
+    <Footer />
    </>
   )
 }

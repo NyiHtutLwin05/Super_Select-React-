@@ -5,6 +5,7 @@ import AboutPage from "./About/About";
 // import homeImg from 'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/ss_let.jpg'
 import { useNavigate } from "react-router";
 import Demo from "./Gallery/GalleryPage";
+import Footer from "../navbar/Footer";
 
 const Homee = () => {
   const isMobileInHome = useMediaQuery('(max-width:807px)');

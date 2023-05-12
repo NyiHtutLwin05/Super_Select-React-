@@ -230,7 +230,7 @@ function GalleryTestDesktop() {
         </Tabs.Panel>
       </Tabs>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
