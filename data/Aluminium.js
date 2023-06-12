@@ -112,8 +112,6 @@ const AluData = [
     id: 28,
     src:'https://zxtodmdglvcilqtuxipr.supabase.co/storage/v1/object/public/SS_Image/Aluminium/showCase2.webp',
   },
-
-  
   
 ];
 export default AluData;
