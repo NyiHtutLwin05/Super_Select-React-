@@ -1,4 +1,4 @@
-import { Center, Flex, Image, NavLink } from "@mantine/core";
+import { Anchor, Center, Flex, Image, NavLink } from "@mantine/core";
 import { useMediaQuery } from '@mantine/hooks';
 import { FaViber } from "react-icons/fa";
 import { AiFillWechat } from "react-icons/ai";
@@ -51,9 +51,13 @@ const NavBar = () => {
           </div>
           <div>
             <Flex gap="lg">
+              
               <FaViber className=" cursor-pointer text-xl md:text-2xl text-indigo-600 hover:text-black transition-all ease-linear duration-150" />
+              
               <AiFillWechat className=" cursor-pointer text-2xl md:text-3xl text-green-500 hover:text-black transition-all ease-linear duration-150" />
+              <Anchor href="https://www.facebook.com/profile.php?id=100093808957113&mibextid=LQQJ4d">
               <BsFacebook className=" cursor-pointer text-xl md:text-2xl text-blue-900 hover:text-black transition-all ease-linear duration-150" />
+              </Anchor>
             </Flex>
           </div>
         </Flex>

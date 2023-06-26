@@ -3,6 +3,7 @@ import React from 'react'
 
 const Footer = () => {
     const CurrentYear = new Date().getFullYear();
+    
   return (
     <footer className=' mt-7 mb-2'>
       <div className=' flex justify-center'>
